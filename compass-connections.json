@@ -1,0 +1,27 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "cdb6abff-c7fa-4f79-9949-2e3104d3d96e",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1728631298409"
+        }
+      },
+      "favorite": {
+        "name": "localhost:27017",
+        "color": "color6"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/smart_dine_in",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
