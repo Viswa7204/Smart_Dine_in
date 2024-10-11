@@ -46,6 +46,7 @@ function getContentBasedRecommendations(foodId, topN) {
     // Find food items with similar features
     const similarFoods = foodDataset.filter(food => food.id === targetFood.id && food.type === targetFood.type && food.flavor === targetFood.flavor);
     
+    /* The line `// Sort similar foods based on their ratings` is a comment in the JavaScript code. Comments are used to provide explanations or context within the code for developers to understand the purpose of certain lines of code. */
     // Sort similar foods based on their ratings
     const sortedFoods = similarFoods.sort((a, b) => b.rating - a.rating);
     
